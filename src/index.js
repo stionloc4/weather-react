@@ -19,6 +19,12 @@ ReactDOM.render(
           <CurrentTemperatureDisplay />
         </div>
       </div>
+      <footer>
+        <a href="https://github.com/stionloc4/weather-react">
+          Open-source code
+        </a>{" "}
+        by Sabrina Tionloc
+      </footer>
     </div>
   </StrictMode>,
   rootElement
