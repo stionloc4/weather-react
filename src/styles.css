@@ -1,0 +1,138 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: black;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 26px;
+  margin-bottom: 3px;
+  margin-top: 25px;
+  font-family: "Heebo", sans-serif;
+  text-transform: capitalize;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: rgb(135, 135, 135);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19px;
+  font-family: " Heebo ", sans-serif;
+}
+
+li:first-letter {
+  text-transform: capitalize;
+}
+
+.footer {
+  padding-left: 330px;
+  font-size: 12px;
+}
+
+.overview {
+  margin-bottom: 20px;
+}
+
+.weather-temperature img {
+  margin-right: 10px;
+  float: left;
+  height: 64px;
+  width: 64px;
+}
+
+.weather-temperature strong {
+  color: black;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 1;
+  font-family: "Heebo", sans-serif;
+}
+
+.weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+  font-family: " Heebo ", sans-serif;
+  font-weight: 400;
+}
+
+.weatherApp {
+  padding: 20px;
+  padding-bottom: 25px;
+  border: 3px solid black;
+  border-radius: 5px;
+  background: #ddfcff;
+  box-shadow: #ffff4f -9px 9px, black -12px 6px, black -12px 12px,
+    black -6px 12px;
+  margin-bottom: 20px;
+}
+
+.weatherAppWrapper {
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+.active {
+  text-decoration: none;
+  color: rgb(33, 33, 33);
+}
+
+.active:hover {
+  color: rgb(33, 33, 33);
+}
+
+.inactive {
+  text-decoration: none;
+  color: #979d9d;
+}
+
+.inactive:hover {
+  color: rgb(33, 33, 33);
+}
+
+#searchCity {
+  background: #feff50;
+  color: black;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+#searchCity:hover {
+  background: black;
+  color: #feff50;
+  transition: all 200ms ease-in-out;
+}
+
+#city-input {
+  border: 2px solid black;
+  font-family: " Heebo ", sans-serif;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: #000;
+  font-family: "Heebo", sans-serif;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.5;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
+}
