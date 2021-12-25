@@ -20,7 +20,11 @@ ReactDOM.render(
         </div>
       </div>
       <footer>
-        <a href="https://github.com/stionloc4/weather-react">
+        <a
+          href="https://github.com/stionloc4/weather-react"
+          target="_blank"
+          rel="noreferrer"
+        >
           Open-source code
         </a>{" "}
         by Sabrina Tionloc
