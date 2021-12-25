@@ -15,11 +15,19 @@ export default function CurrentTemperatureDisplay() {
           />
           <strong id="temperature">27</strong>{" "}
           <span class="units">
-            <a href="#" class="active" id="celsiusLink">
+            <a
+              href="./CurrentTemperatureDisplay.js"
+              class="active"
+              id="celsiusLink"
+            >
               °C
             </a>{" "}
             |{" "}
-            <a href="#" className="inactive" id="FahrenheitLink">
+            <a
+              href="./CurrentTemperatureDisplay.js"
+              className="inactive"
+              id="FahrenheitLink"
+            >
               °F
             </a>
           </span>
